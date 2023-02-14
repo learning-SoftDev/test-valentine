@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab uuuuu</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="centered">
+      <h4 id="header-valentine">Will you be my Valentine?</h4>
+      <input class="yes" type="checkbox" name="answer" id="Yes" />
+      <label class="yes" for="Yes">Yup</label>
+      <input class="no" type="checkbox" name="answer" id="No" />
+      <label class="no" for="No">Nope</label>
+
+      <div class="answer--yes"></div>
+      <div class="answer--no"></div>
+    </div>
+  </body>
+  <script>
+    let yesBox = document.getElementById('Yes');
+    let noBox = document.getElementById('No');
+    yesBox.addEventListener('click', function () {
+      window.alert('Hihihihihi see you on Saturday. Wab uuu  (Click Ok)');
+    });
+    noBox.addEventListener('click', function () {
+      window.alert('Edi dont. Ganda ka accla? (Click Ok)');
+    });
+  </script>
+</html>
