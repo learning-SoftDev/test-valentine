@@ -1,6 +1,9 @@
 /*
 Awesome Lea Verou's Heart Pattern Background
 ---- */
+html {
+  overflow: hidden;
+}
 
 body {
   background: radial-gradient(circle closest-side at 60% 43%, #323232 26%, rgba(187, 0, 51, 0) 27%),
@@ -16,7 +19,6 @@ body {
   background-color: #323232;
   background-size: 100px 100px;
   font-family: 'Lato', sans-serif;
-  overflow: hidden;
 }
 
 /*
